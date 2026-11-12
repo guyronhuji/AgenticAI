@@ -1,0 +1,12 @@
+[
+  {"id": "q01", "tier": "compute", "question": "What is 123456 * 654321?", "answer": 80779853376},
+  {"id": "q02", "tier": "compute", "question": "What is the sum of the first 1000 prime numbers?", "answer": 3682913},
+  {"id": "q03", "tier": "compute", "question": "What is the population standard deviation of [2, 4, 4, 4, 5, 5, 7, 9]?", "answer": 2},
+  {"id": "q04", "tier": "compute", "question": "What is the greatest common divisor of 462 and 1071?", "answer": 21},
+  {"id": "q05", "tier": "compute", "question": "What is the 20th Fibonacci number, with F1 = F2 = 1?", "answer": 6765},
+  {"id": "q06", "tier": "setup", "question": "A ball is dropped from a height of 80 m with g = 9.8 m/s^2. How many seconds until it hits the ground? Round to 2 decimals.", "answer": 4.04},
+  {"id": "q07", "tier": "setup", "question": "A lab has 3 incubators. Each holds 8 trays of 24 samples. One incubator is half full, the other two are full. A machine processes 4 samples in parallel in 5 minutes. How many minutes of machine time are needed for all samples?", "answer": 600},
+  {"id": "q08", "tier": "setup", "question": "A radioactive source has a half-life of 14.3 days. What percentage of its original activity remains after 60 days? Round to 2 decimals.", "answer": 5.45},
+  {"id": "q09", "tier": "units", "question": "A car travels 150 miles in 2 hours 30 minutes. What is its average speed in kilometres per hour? Use 1 mile = 1.609344 km. Round to 1 decimal.", "answer": 96.6},
+  {"id": "q10", "tier": "distractor", "question": "A detector counts 1200 events in 300 s with the source present and 300 events in 300 s with the source removed. The detector was calibrated last Tuesday. What is the net source count rate in counts per second?", "answer": 3}
+]

@@ -1,0 +1,14 @@
+# Part IV v2. Python 3.11+.
+ollama>=0.6            # native Ollama client (tools, think, structured outputs)
+openai>=1.30           # hosted-API fallback (LLM_BACKEND=openai)
+mcp>=2,<3              # Model Context Protocol SDK (server + client), v2 API
+requests
+numpy
+pint
+sympy
+pandas
+matplotlib
+pypdf                  # homework: index your own PDFs
+sentence-transformers  # optional: local embeddings (~90 MB model download on first use);
+                       # without it retrieval falls back to Ollama's nomic-embed-text, then to hashing
+pytest                 # optional: tests/

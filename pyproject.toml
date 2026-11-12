@@ -1,0 +1,32 @@
+[project]
+name = "part4-code-v2"
+version = "2.0.0"
+description = "AI Methods for Science, Part IV: agentic frameworks (demos, exercises, workshop kit)"
+requires-python = ">=3.11"
+dependencies = [
+    "ollama>=0.6",        # native Ollama client (tools, think, structured outputs)
+    "openai>=1.30",       # hosted-API fallback (LLM_BACKEND=openai)
+    "mcp>=2,<3",          # Model Context Protocol SDK (server + client), v2 API
+    "requests",
+    "beautifulsoup4",     # 05b: the model parses fetched pages inside the sandbox
+    "lxml",
+    "numpy",
+    "scipy",
+    "seaborn",            # figures from sandboxed code (05b, Week 12)
+    "pint",
+    "sympy",
+    "pandas",
+    "matplotlib",
+    "pypdf",              # homework: index your own PDFs
+    "pytest",
+]
+
+[project.optional-dependencies]
+# local embeddings for retrieval (pulls in PyTorch, 1-3 GB). Without it, retrieval
+# falls back to Ollama's nomic-embed-text, then to a hashing fallback.
+embeddings = ["sentence-transformers"]
+# 06a_embedding_map.ipynb: the UMAP map of sentence embeddings
+notebook = ["sentence-transformers", "umap-learn", "plotly", "ipykernel", "ipywidgets", "nbformat", "nbclient"]
+
+[tool.uv]
+package = false
