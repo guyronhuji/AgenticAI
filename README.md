@@ -73,5 +73,6 @@ or watch it live with `uv run python common/trace_viewer.py` (browser, http://lo
 | 10.6a Embedding map | `week10/06a_embedding_map.ipynb` | Notebook: sentence embeddings, cosine heatmap, interactive UMAP map (needs `uv sync --extra notebook`) |
 | 10.7 MCP | `week10/07_mcp_server.py`, `08_mcp_client_agent.py` | Course tools as an MCP server; the agent loop consuming any server |
 | HW 10 | `week10/make_corpus_from_pdfs.py` | Turns your PDFs into the text corpus the retrieval code expects |
+| Week 10 exercise | `week10/09_FRONT_DESK_EXERCISE.md`, `week10/09_front_desk_skeleton.py` | The Front Desk: build a router in front of two specialists. Read the sheet, fill in the four TODOs in the skeleton. Practice, not handed in |
 
 Note: `common/sandbox.py` with `SANDBOX=subprocess` is a teaching sandbox. It guards against accidents, not adversaries.
